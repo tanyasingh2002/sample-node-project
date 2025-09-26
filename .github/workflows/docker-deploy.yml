@@ -2,7 +2,7 @@ name: Docker CI/CD
 on:
  push:
    branches:
-     - feature/add-test
+     - features/add-test
 jobs:
  build-and-push:
    runs-on: ubuntu-latest
